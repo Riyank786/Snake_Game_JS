@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <title>Snake</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- start page -->
+  <div id="start-page">
+    <div id="aboutUs">
+      <button id="closeAboutbtn" onclick="closeAboutUs()">X</button>
+      <div id="head-about"><a href="https://m.apkpure.com/developer/SpotDoit#menu">SpotDoit Corporation</a></div>
+      <div>Created by<br>
+        ~ Riyank Patel
+      </div>
+      <div id="cprt">COPYRIGHT©-2020 All rights reserved</div>
+      <a href="https://m.apkpure.com/developer/SpotDoit#menu" target="_">
+        <h6>Click here for more games</h6>
+      </a>
+    </div>
+    <div id="game-title">
+
+      <span id="txt">Snake!</span>
+    </div>
+    <div id="start-ctrl">
+      <button onclick="startnew()" id="start-btn">
+        START
+      </button>
+      <select id="game-level">
+        <option value="Easy" style="cursor: pointer">Easy</option>
+        <option value="Meduim" style="cursor: pointer">Meduim</option>
+        <option value="Hard" style="cursor: pointer">Hard</option>
+      </select>
+      <div onclick="openAboutUs()" id="lvl-option">
+        ABOUT US
+      </div>
+    </div>
+  </div>
+  <!-- start page end -->
+
+  <!-- container start-->
+  <div id="container">
+    <div id="out-box">
+      <div>
+        Game Over !
+      </div>
+      <div id="scoreBoard">
+        <div>Your Score : <span id="yrScore"></span></div>
+        <div>High Score :
+          <span id="hgScore"></span>
+        </div>
+      </div>
+      <div id="selectOut">
+        <button onclick="goHome()" id="home">Home</button>
+        <button onclick="reStart()" id="reStart">Replay</button>
+      </div>
+    </div>
+    <div id="score">
+      <div id="scoreC">Score : &nbsp;<span id="scrC">0</span></div>
+      <div onclick="soundOnOff()" id="sound"></div>
+      <div id="scoreH">High Score :&nbsp;<span id="scrH">0</span></div>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <audio id="pointSound">
+      <source src="audio/winpoint1.mp3">
+    <audio id="outSound">
+        <source src="audio/failure3.mp3">
+          
+  </div>
+  <!--container end-->
+
+
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>
