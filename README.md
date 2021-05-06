@@ -5,7 +5,11 @@ This is single player 2D Game.
 This is a desktop web game.
 
 ## See Demo Here
+For Desktop :
 https://riyank786.github.io/Snake_Game_JS/
+
+For Mobile :
+https://riyank786.github.io/Snake_Game-Mobile/
 
 ## ScreenShots
 
