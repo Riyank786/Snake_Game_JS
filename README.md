@@ -9,7 +9,7 @@ For Desktop :
 https://riyank786.github.io/Snake_Game_JS/
 
 For Mobile :
-https://riyank786.github.io/Snake_Game-Mobile/
+https://github.com/Riyank786/Snake_Game-Mobile.git
 
 ## ScreenShots
 
